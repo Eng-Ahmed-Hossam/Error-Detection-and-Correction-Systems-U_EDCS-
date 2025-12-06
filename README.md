@@ -26,35 +26,6 @@ Includes **Parity (1D & 2D)**, **Hamming codes**, **CRC**, **Checksums**, and **
   - Detection/correction rate charts
   - Benchmarking across schemes
 
----
-
-## 📂 Project Structure
-
-```text
-U_EDCS/
-│
-├── core/                # Core modules
-│   ├── parity.py
-│   ├── parity2d.py
-│   ├── hamming.py
-│   ├── crc.py
-│   ├── checksum.py
-│   └── channel.py
-│
-├── app/                 # Streamlit app
-│   ├── pages/
-│   │   ├── 1_Parity.py
-│   │   ├── 2_Hamming.py
-│   │   ├── 3_CRC.py
-│   │   ├── 4_Checksum.py
-│   │   └── 5_Experiments.py
-│   └── visuals/         # Visualization utilities
-│
-├── README.md
-└── requirements.txt
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -89,3 +60,31 @@ Focused on clarity, reproducibility, and portfolio-grade polish.
 
 MIT License — free to use, modify, and distribute.
 
+---
+
+## 📂 Project Structure
+
+```text
+U_EDCS/
+│
+├── core/                # Core modules
+│   ├── parity.py
+│   ├── parity2d.py
+│   ├── hamming.py
+│   ├── crc.py
+│   ├── checksum.py
+│   └── channel.py
+│
+├── app/                 # Streamlit app
+│   ├── pages/
+│   │   ├── 1_Parity.py
+│   │   ├── 2_Hamming.py
+│   │   ├── 3_CRC.py
+│   │   ├── 4_Checksum.py
+│   │   └── 5_Experiments.py
+│   └── visuals/         # Visualization utilities
+│
+├── README.md
+└── requirements.txt
+
+---
