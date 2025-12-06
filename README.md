@@ -4,7 +4,7 @@ A Python toolkit with **Streamlit UI** for exploring and benchmarking **error de
 Includes **Parity (1D & 2D)**, **Hamming codes**, **CRC**, **Checksums**, and **channel simulation** for random & burst errors. Also features an **Experiments module** for Monte Carlo simulations and performance benchmarking.
 
 ---
----
+
 ## ✨ Features
 
 - **Parity**
