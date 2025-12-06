@@ -2,6 +2,9 @@ import streamlit as st
 from core.checksum import Checksum
 from app.visuals.bit_visualizer import visualize_bits
 
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 st.set_page_config(page_title="Checksum Error Detection", page_icon="🔹", layout="wide")
 
 st.title("🔹 Checksum Error Detection")

@@ -3,6 +3,9 @@ from core.parity import Parity
 from core.parity2d import Parity2D
 from app.visuals.parity_visualizer import visualize_parity_bits
 
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 st.set_page_config(page_title="Parity Error Detection", page_icon="🔹", layout="wide")
 
 st.title("🔹 Parity Error Detection")

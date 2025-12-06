@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from core.experiments import ExperimentRunner
 
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 st.set_page_config(page_title="Experiments", page_icon="🔹", layout="wide")
 
 st.title("🔹 Experiments & Benchmarking")

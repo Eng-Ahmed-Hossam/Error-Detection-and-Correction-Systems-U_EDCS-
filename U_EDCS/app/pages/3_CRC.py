@@ -2,6 +2,9 @@ import streamlit as st
 from core.crc import CRC
 from app.visuals.crc_visualizer import visualize_crc_division
 
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 st.set_page_config(page_title="CRC Error Detection", page_icon="🔹", layout="wide")
 
 st.title("🔹 Cyclic Redundancy Check (CRC)")
